@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "name": "e-commerce-shop",
+  "version": "1.0.0",
+  "description": "a e commerce app build on NodeJS using modules like express, mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkx-dev/Scatch-web-store.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Roshan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkx-dev/Scatch-web-store/issues"
+  },
+  "homepage": "https://github.com/Darkx-dev/Scatch-web-store#readme"
+}
