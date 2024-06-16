@@ -1,13 +1,12 @@
 const mongoose = require('mongoose')
-    
-mongoose.connect('mongodb://localhost:27017/scatch')
+const dbgr = require("debug")("development:mongoose");
 
 const connect = async () => {
     try {
-        await mongoose.connection('mongodb://localhost:27017/scatch')
-        console.log('Error creating connection')
+        await mongoose.connect('mongodb://localhost:27017/scatch')
+        dbgr("Connected to db")
     } catch (error) {
-        console.log(error)
+        dbgr(error)
     }
 }
 
